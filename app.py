@@ -757,4 +757,4 @@ def download_lda(n_clicks, list_of_contents, list_of_names, list_of_dates, topic
 #                                     )
 
 if __name__ == '__main__':
-    app.run_server(debug=False,port=int(os.environ.get("PORT", 5000)), host='0.0.0.0')
+    app.run_server(debug=False)
