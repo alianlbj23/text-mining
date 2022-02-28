@@ -1,3 +1,4 @@
+from pickle import TRUE
 import dash
 from dash.dependencies import Input, Output, State
 import dash_html_components as html
@@ -757,4 +758,4 @@ def download_lda(n_clicks, list_of_contents, list_of_names, list_of_dates, topic
 #                                     )
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=TRUE)
