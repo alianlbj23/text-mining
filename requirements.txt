@@ -1,4 +1,5 @@
 atomicwrites==1.4.0
+gunicorn
 attrs==21.2.0
 blis==0.7.5
 Brotli==1.0.9
